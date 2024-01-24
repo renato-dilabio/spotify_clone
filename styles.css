@@ -15,44 +15,34 @@ h1 {
   width: 360px;
 }
 
-.sidebar_navigation {
-  background-color: #121212;
-  border-radius: 8px;
-  padding: 19px 0px 10px 23px;
-}
-
-.sidebar_navigation .logo {
-  background: #121212;
-  display: flex;
-  border-radius: 8px;
-}
-
-.sidebar_navigation .logo img {
-  width: 79px;
-}
-
-.sidebar_biblioteca {
-  background-color: #121212;
-  border-radius: 8px;
-  padding: 2px 0px 10px 23px;
-  margin-top: 8px;
-}
-
-.sidebar_list {
-  margin-top: 8px;
-}
-
-.sidebar_list ul li {
+.sidebar ul li {
+  margin-top: 5px;
   padding: 10px 0;
 }
 
-.sidebar_list a {
+.sidebar a {
   color: #b3b3b3;
   text-decoration: none;
   font-size: 25px;
 }
 
-.text_element {
+.sidebar__navigation {
+  background-color: #121212;
+  border-radius: 8px;
+  padding: 19px 0px 10px 23px;
+}
+
+.sidebar__navigation .logo {
+  background: #121212;
+  display: flex;
+  border-radius: 8px;
+}
+
+.sidebar__navigation .logo img {
+  width: 79px;
+}
+
+.text-sidebar {
   color: #b3b3b3;
   text-decoration: none;
   font-weight: 700;
@@ -63,11 +53,82 @@ h1 {
   letter-spacing: 0.7px;
 }
 
-.sidebar_biblioteca_list {
-  display: inline;
+.sidebar__library {
+  background-color: #121212;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 4px 8px;
+  margin-top: 8px;
 }
 
-.sidebar_biblioteca_plus {
-  display: inline;
-  margin-left: 130px;
+.sidebar__library__content {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 12px 0 16px;
+}
+
+.sidebar__library .uil-plus {
+  scale: 0.85;
+  color: #b3b3b3c7;
+}
+
+.section-playlist {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: #242424;
+  padding: 22px;
+  margin-top: 22px;
+  border-radius: 8px;
+}
+
+.sidebar__library .text {
+  font-family: "DM Sans", sans-serif;
+  letter-spacing: 0.7px;
+  font-weight: 700;
+  display: block;
+}
+
+.sidebar__library .title {
+  font-size: 16px;
+  color: #fff;
+}
+
+.sidebar__library .subtitle {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 14px 0 23px;
+}
+
+.sidebar__library .button {
+  border-radius: 999px;
+  height: 32px;
+  width: 110px;
+  font-size: 12.5px;
+  color: #121212;
+  border: none;
+}
+
+.section-podcast {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: #242424;
+  padding: 22px;
+  margin-top: 22px;
+  border-radius: 8px;
+}
+
+.sidebar__library__button {
+  border-radius: 999px;
+  height: 32px;
+  font-size: 12.5px;
+  color: #121212;
+  border: none;
+  padding: 0 16px;
 }

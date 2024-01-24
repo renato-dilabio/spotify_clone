@@ -9,8 +9,12 @@
     <link rel="stylesheet" href="reset.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,600;9..40,700&family=Inter&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&family=Inter&display=swap"
       rel="stylesheet"
     />
     <link
@@ -21,7 +25,8 @@
   </head>
   <body>
     <div class="sidebar">
-      <nav class="sidebar_navigation">
+      <!--# BARRA LATERAL | main -->
+      <nav class="sidebar__navigation">
         <div class="logo">
           <a href="">
             <img
@@ -30,37 +35,66 @@
             />
           </a>
         </div>
-        <div class="sidebar_list">
-          <ul>
-            <li>
-              <a href="">
-                <span class="uil uil-estate"></span>
-                <span class="text_element">Início</span>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <span class="uil uil-search"></span>
-                <span class="text_element">Buscar</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-
-      <nav class="sidebar_biblioteca">
-        <div class="sidebar_list">
-          <div class="sidebar_biblioteca_list">
+        <!--# BARRA LATERAL | lista -->
+        <ul>
+          <li>
             <a href="">
-              <span class="uil uil-server-alt"></span>
-              <span class="text_element">Sua Biblioteca</span>
+              <span class="uil uil-estate"></span>
+              <span class="text-sidebar">Início</span>
             </a>
-          </div>
-          <div class="sidebar_biblioteca_plus">
-            <a class="uil uil-plus" href=""></a>
-          </div>
-        </div>
+          </li>
+          <li>
+            <a href="">
+              <span class="uil uil-search"></span>
+              <span class="text-sidebar">Buscar</span>
+            </a>
+          </li>
+        </ul>
       </nav>
+      <!--# BARRA LATERAL | sua biblioteca -->
+      <div class="sidebar__library">
+        <div class="sidebar__library__content">
+          <a href="">
+            <span class="uil uil-server-alt"></span>
+            <span class="text-sidebar">Sua Biblioteca</span>
+          </a>
+          <a class="uil uil-plus" href=""></a>
+        </div>
+        <!--# BARRA LATERAL | playlist-->
+        <section class="section-playlist">
+          <div class="section-playlist__content">
+            <span class="text title">Cria sua primeira playlist</span>
+            <span class="text subtitle">É fácil, vamos te ajudar.</span>
+            <button class="sidebar__library__button text">
+              Criar playlist
+            </button>
+          </div>
+        </section>
+        <!--# BARRA LATERAL | ppodcast-->
+        <section class="section-podcast">
+          <div class="section-podcast__content">
+            <span class="text title">Que tal seguir um podcast novo?</span>
+            <span class="text subtitle">
+              Avisamos você sobre novos episódios.
+            </span>
+            <button class="sidebar__library__button text">
+              Explore podcasts
+            </button>
+          </div>
+        </section>
+
+        <div>
+          <a class="cookies" href="">Cookies</a>
+        </div>
+
+        <div class="languages">
+          <button class="languages__button">
+            <span class="uil uil-globe"></span>
+            <span>Português do Brasil</span>
+          </button>
+        </div>
+        <!--# BARRA LATERAL | closure -->
+      </div>
     </div>
   </body>
 </html>
