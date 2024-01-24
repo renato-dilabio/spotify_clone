@@ -1,6 +1,7 @@
 body {
   background-color: #000;
   font-family: var(--font-dm-sans);
+  overflow-x: hidden;
 }
 
 h1 {
@@ -14,6 +15,7 @@ h1 {
   bottom: 0;
   padding: 9px;
   width: 360px;
+  height: 100vh;
 }
 
 .sidebar ul li {
@@ -45,7 +47,7 @@ h1 {
 
 .text-sidebar {
   text-decoration: none;
-  font-weight: 700;
+  font-weight: var(--font-weight-extrabold);
   font-size: 15px;
   padding-left: 13px;
   vertical-align: 15%;
@@ -98,7 +100,7 @@ h1 {
   color: var(--color-text-bright);
   letter-spacing: 0.7px;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: var(--font-weight-semibold);
   white-space: nowrap;
   position: absolute;
   background-color: var(--background-sidebar-insidebox);
@@ -119,7 +121,7 @@ h1 {
   color: var(--color-text-bright);
   letter-spacing: 0.7px;
   font-size: 13.5px;
-  font-weight: 500;
+  font-weight: var(--font-weight-semibold);
   white-space: nowrap;
   position: absolute;
   background-color: var(--background-sidebar-insidebox);
@@ -148,7 +150,7 @@ h1 {
 
 .sidebar__library .text {
   letter-spacing: 0.5px;
-  font-weight: 700;
+  font-weight: var(--font-weight-extrabold);
   display: block;
 }
 
@@ -160,7 +162,7 @@ h1 {
 .sidebar__library .subtitle {
   color: var(--color-text-bright);
   font-size: 14px;
-  font-weight: 300;
+  font-weight: var(--font-weight-defaut);
   padding: 14px 0 23px;
 }
 
@@ -190,16 +192,22 @@ h1 {
   color: var(--color-text-dark);
   border: none;
   padding: 0 16px;
+  cursor: pointer;
+}
+
+.sidebar__library__button:hover {
+  scale: 1.05;
+  transition: 0.05s;
 }
 
 .sidebar .info {
   margin: 0 0 30px;
-  font-weight: 300;
+  font-weight: var(--font-weight-defaut);
 }
 
 .sidebar .info a {
   color: var(--color-text-sidebar);
-  font-weight: 300;
+  font-weight: var(--font-weight-defaut);
   font-size: 10px;
   padding: 10px;
 }
@@ -226,11 +234,16 @@ h1 {
   border-radius: 999px;
   color: var(--color-text-bright);
   cursor: pointer;
-  font-weight: 600;
+  font-weight: var(--font-weight-bold);
   padding: 4px 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.languages .languages__button:hover {
+  scale: 1.05;
+  border: 1px solid #fff;
 }
 
 .languages .languages__button .uil {
@@ -239,7 +252,7 @@ h1 {
 }
 
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -263,7 +276,7 @@ h1 {
   width: 210px;
   color: var(--background-sidebar);
   border: none;
-  font-weight: 700;
+  font-weight: var(--font-weight-extrabold);
   font-size: 16px;
   letter-spacing: 0.2px;
   margin: 0 40px 0 0;
@@ -271,7 +284,7 @@ h1 {
 
 .footer .text {
   letter-spacing: 0.7px;
-  font-weight: 600;
+  font-weight: var(--font-weight-bold);
   text-align: left;
   display: block;
   margin: 5px 20px 0 0;
@@ -285,6 +298,6 @@ h1 {
 .footer .paragraph {
   color: var(--color-text-bright);
   font-size: 15px;
-  font-weight: 400;
+  font-weight: var(--font-weight-semibold);
   line-height: 1.5;
 }

@@ -1,9 +1,18 @@
 :root {
   /* FONT */
   --font-dm-sans: "DM Sans", sans-serif;
+  --font-weight-extrabold: 700;
+  --font-weight-bold: 600;
+  --font-weight-semibold: 500;
+  --font-weight-defaut: 300;
+
+  /* COLORS */
   --background-sidebar: #121212;
   --background-sidebar-insidebox: #242424;
   --color-text-sidebar: #b3b3b3;
   --color-text-bright: #fff;
   --color-text-dark: #000;
+  --bg-icon: #131313;
+  --bg-arrow-color: rgba(0, 0, 07);
+  --bg-icon: ;
 }

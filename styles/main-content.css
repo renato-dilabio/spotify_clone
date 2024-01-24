@@ -1,12 +1,112 @@
 /* HEADER */
+.body {
+  font-family: var(--font-dm-sans);
+}
 .main-container {
   max-width: 80vw;
   height: 100vh;
-  margin-left: 320px;
-  margin-right: 56px;
+  margin-left: 366px;
+  margin-right: 4px;
+  position: relative;
 }
 
 .header__navigation {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 10px 16px;
+  margin: 10px;
+  border-radius: 8px;
+  background-color: var(--background-sidebar);
+}
+
+.header__navigation .navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header__navigation .arrow-left {
+  margin-right: 0.75rem;
+}
+
+.arrow-left,
+.arrow-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background: var(--bg-icon);
+  background-color: var(--bg-arrow-color);
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.header__login {
+  display: flex;
+  align-items: center;
+}
+
+.header__search {
+  display: flex;
+  align-items: center;
+  min-width: 190px;
+  max-width: 360px;
+  height: 48px;
+  margin-left: 8px;
+  background-color: var(--background-sidebar-insidebox);
+  border-radius: 999px;
+  border: 1px solid transparent;
+}
+
+.header__search img {
+  width: 16px;
+  height: 16px;
+  margin-left: 10px;
+}
+
+.header__search input {
+  background: transparent;
+  border: none;
+  padding: 0 100px 0 12px;
+  color: var(--color-text-bright);
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  outline: none;
+}
+
+.header__login .subscribe {
+  color: #a7a7a7;
+  min-width: 95px;
+  font-size: 15px;
+  font-weight: var(--font-weight-extrabold);
+  background-color: transparent;
+  margin-right: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.header__login .subscribe:hover {
+  scale: 1.05;
+  color: var(--color-text-bright);
+  transition: 0.1s;
+}
+
+.header__login .login {
+  width: 100px;
+  height: 48px;
+  color: var(--color-text-dark);
+  font-size: 16px;
+  font-weight: var(--font-weight-extrabold);
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+}
+
+.header__login .login:hover {
+  scale: 1.05;
+  transition: 0.1s;
 }
