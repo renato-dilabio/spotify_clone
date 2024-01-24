@@ -1,0 +1,9 @@
+:root {
+  /* FONT */
+  --font-dm-sans: "DM Sans", sans-serif;
+  --background-sidebar: #121212;
+  --background-sidebar-insidebox: #242424;
+  --color-text-sidebar: #b3b3b3;
+  --color-text-bright: #fff;
+  --color-text-dark: #000;
+}
