@@ -7,6 +7,11 @@
     <title>Spotify_</title>
 
     <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/vars.css" />
+    <link rel="stylesheet" href="styles/main-content.css" />
+    <link rel="stylesheet" href="styles/sidebar-footer.css" />
+    <link rel="stylesheet" href="styles/media-queries.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,11 +22,9 @@
       rel="stylesheet"
       href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
     />
-    <link rel="stylesheet" href="styles/vars.css" />
-    <link rel="stylesheet" href="styles/main-content.css" />
-    <link rel="stylesheet" href="styles/sidebar-footer.css" />
   </head>
   <body>
+    <div class="hidebar"></div>
     <!--SIDEBAR-->
     <div class="sidebar">
       <!--# BARRA LATERAL | main -->
@@ -138,76 +141,162 @@
             />
           </div>
 
+          <div class="blank"></div>
+
           <div class="header__login">
             <button class="subscribe">Inscreva-se</button>
             <button class="login">Entrar</button>
           </div>
         </nav>
-      </div>
-      <!--CARDS-->
-      <div class="offer__scroll-container">
-        <div class="offer__header">
-          <a class="text title" href="">Playlists do Spotify</a>
-          <a class="text paragraph" href="">Mostrar tudo</a>
-        </div>
-        <!--SCROLL CONTAINER-->
-        <div class="offer__list">
-          <section>
-            <!--CARD 1-->
-            <button href="" class="cards">
-              <div class="cardbox">
-                <img
-                  src="./src/assets/playlist/mega_hit_mix.jpg"
-                  alt="Capa coletânea Mega Hit Mix. Imagem de artista de perfil."
-                />
-                <span class="text subtitle">Mega Hit Mix</span>
-                <span class="text paragraph"
-                  >A mega mix of 75 favorites from the last few years!</span
-                >
-              </div>
-            </button>
-            <!--CARD 2-->
-            <button href="" class="cards">
-              <div class="cardbox">
-                <img
-                  src="./src/assets/playlist/lofi-morning.jpg"
-                  alt="Capa coletânea Mellow Morning Lofi. Imagem de utensílios para fazer café."
-                />
-                <span class="text subtitle">Mellow Morning Lofi</span>
-                <span class="text paragraph"
-                  >Laid-back beats for an easygoing morning.</span
-                >
-              </div>
-            </button>
-            <!--CARD 3-->
-            <button href="" class="cards">
-              <div class="cardbox">
-                <img
-                  src="./src/assets/playlist/reflection.jpg"
-                  alt="Capa coletânea Reflection. Imagem de pessoa olhando o mar."
-                />
-                <span class="text subtitle">Reflection</span>
-                <span class="text paragraph"
-                  >A safe space for reflecting and remembering. Soft,
-                  instrumental music to bring you comfort and strength.</span
-                >
-              </div>
-            </button>
-            <!--CARD 4-->
-            <button href="" class="cards">
-              <div class="cardbox">
-                <img
-                  src="./src/assets/playlist/rock_classics.jpg"
-                  alt="Capa coletânea Rock Classics. Imagem em preto e branco de menbro de uma banda."
-                />
-                <span class="text subtitle">Rock Classics</span>
-                <span class="text paragraph"
-                  >Rock legends & epic songs that continue to inspire
-                  generations.</span
-                >
-              </div>
-            </button>
-          </section>
+
+        <!--CARDS-->
+        <div class="offer__scroll-container">
+          <div class="offer__header">
+            <a class="text title" href="">Playlists do Spotify</a>
+            <a class="text paragraph" href="">Mostrar tudo</a>
+          </div>
+          <!--SCROLL CONTAINER-->
+          <div class="offer__list">
+            <section>
+              <!--CARD 1-->
+              <button href="" class="cards">
+                <div class="cardbox">
+                  <img
+                    src="./src/assets/playlist/mega_hit_mix.jpg"
+                    alt="Capa coletânea Mega Hit Mix. Imagem de artista de perfil."
+                  />
+                  <span class="text subtitle">Mega Hit Mix</span>
+                  <span class="text paragraph"
+                    >A mega mix of 75 favorites from the last few years!</span
+                  >
+                </div>
+              </button>
+              <!--CARD 2-->
+              <button href="" class="cards">
+                <div class="cardbox">
+                  <img
+                    src="./src/assets/playlist/lofi-morning.jpg"
+                    alt="Capa coletânea Mellow Morning Lofi. Imagem de utensílios para fazer café."
+                  />
+                  <span class="text subtitle">Mellow Morning Lofi</span>
+                  <span class="text paragraph"
+                    >Laid-back beats for an easygoing morning.</span
+                  >
+                </div>
+              </button>
+              <!--CARD 3-->
+              <button href="" class="cards">
+                <div class="cardbox">
+                  <img
+                    src="./src/assets/playlist/reflection.jpg"
+                    alt="Capa coletânea Reflection. Imagem de pessoa olhando o mar."
+                  />
+                  <span class="text subtitle">Reflection</span>
+                  <span class="text paragraph"
+                    >A safe space for reflecting and remembering. Soft,
+                    instrumental music to bring you comfort and strength.</span
+                  >
+                </div>
+              </button>
+              <!--CARD 4-->
+              <button href="" class="cards">
+                <div class="cardbox">
+                  <img
+                    src="./src/assets/playlist/rock_classics.jpg"
+                    alt="Capa coletânea Rock Classics. Imagem em preto e branco de membro de uma banda."
+                  />
+                  <span class="text subtitle">Rock Classics</span>
+                  <span class="text paragraph"
+                    >Rock legends & epic songs that continue to inspire
+                    generations.</span
+                  >
+                </div>
+              </button>
+              <!--CARD 5-->
+              <button href="" class="cards">
+                <div class="cardbox">
+                  <img
+                    src="./src/assets/playlist/alt-rock.jpg"
+                    alt="Capa coletânea Alternative Rock. Imagem de vocalista cantando no palco(perfil)."
+                  />
+                  <span class="text subtitle">Best of Alt Rock</span>
+                  <span class="text paragraph"
+                    >A tasty mix of alternative, modern rock and softer side of
+                    metal tracks</span
+                  >
+                </div>
+              </button>
+              <!--CARD 6-->
+              <button href="" class="cards">
+                <div class="cardbox">
+                  <img
+                    src="./src/assets/playlist/indie-rock.jpg"
+                    alt="Capa coletânea Indie Rock. Imagem de banda, integrantes usam casacos de inverno."
+                  />
+                  <span class="text subtitle">Indie Rock Club</span>
+                  <span class="text paragraph"
+                    >Welcome to Indie Rock Club. Cover: Arctic Monkeys.</span
+                  >
+                </div>
+              </button>
+              <!--CARD 7-->
+              <button href="" class="cards">
+                <div class="cardbox">
+                  <img
+                    src="./src/assets/playlist/billie-ellish.jpg"
+                    alt="Capa coletânea Billie Ellish. Retrato da cantora."
+                  />
+                  <span class="text subtitle">This is Billie Eilish</span>
+                  <span class="text paragraph"
+                    >All things Billie! Her best songs ever.</span
+                  >
+                </div>
+              </button>
+              <!--CARD 8-->
+              <button href="" class="cards">
+                <div class="cardbox">
+                  <img
+                    src="./src/assets/playlist/lP.jpg"
+                    alt="Capa coletânea Linkin Park. Imagem de banda, integrantes usam casacos de inverno."
+                  />
+                  <span class="text subtitle">This is Linkin Park</span>
+                  <span class="text paragraph"
+                    >This is Linkin Park. All the greatest hits in one
+                    playlist.</span
+                  >
+                </div>
+              </button>
+              <!--CARD 9-->
+              <button href="" class="cards">
+                <div class="cardbox">
+                  <img
+                    src="./src/assets/playlist/stromae-multitude.jpg"
+                    alt="Capa Multitude Stromae. Clones do artista em círculo olham para o centro."
+                  />
+                  <span class="text subtitle">Multitude - Stromae</span>
+                  <span class="text paragraph">
+                    Playlist Stromaé multitude / multitude Stromae / Lenfer /
+                    invaincu / la solassitude / fils de joie / pas vraiment /
+                    riez / cest que du bonheu.</span
+                  >
+                </div>
+              </button>
+              <!--CARD 10-->
+              <button href="" class="cards">
+                <div class="cardbox">
+                  <img
+                    src="./src/assets/playlist/tropical-house.jpg"
+                    alt="Capa coletânea Tropical House. Imagem de palmeira"
+                  />
+                  <span class="text subtitle">Tropical House</span>
+                  <span class="text paragraph">
+                    Take down the tempo but keep the dance party going with the
+                    biggest tropical house jams..</span
+                  >
+                </div>
+              </button>
+            </section>
+          </div>
         </div>
       </div>
     </main>
