@@ -175,9 +175,6 @@ h1 {
 }
 
 .section-podcast {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
   gap: 20px;
   background-color: var(--background-sidebar-insidebox);
   padding: 20px 20px 18px;
@@ -201,7 +198,8 @@ h1 {
 }
 
 .sidebar .info {
-  margin: 0 0 30px;
+  margin-top: auto;
+  margin-bottom: 30px;
   font-weight: var(--font-weight-defaut);
 }
 
@@ -213,7 +211,8 @@ h1 {
 }
 
 .sidebar .info a:hover {
-  text-decoration: underline;
+  color: var(--color-text-bright);
+  transition: 0.2s;
 }
 
 .sidebar .info .info__line1 {
@@ -280,6 +279,10 @@ h1 {
   font-size: 16px;
   letter-spacing: 0.2px;
   margin: 0 40px 0 0;
+}
+
+.footer button:hover {
+  scale: 1.05;
 }
 
 .footer .text {

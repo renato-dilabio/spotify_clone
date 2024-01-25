@@ -9,10 +9,6 @@
     <link rel="stylesheet" href="styles/reset.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&family=Inter&display=swap"
       rel="stylesheet"
@@ -22,7 +18,7 @@
       href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
     />
     <link rel="stylesheet" href="styles/vars.css" />
-    <link rel="stylesheet" href="styles/main-content.css">
+    <link rel="stylesheet" href="styles/main-content.css" />
     <link rel="stylesheet" href="styles/sidebar-footer.css" />
   </head>
   <body>
@@ -112,6 +108,7 @@
         <!--# BARRA LATERAL | closure -->
       </div>
     </div>
+
     <!--MAIN CONTENT-->
     <main>
       <div class="main-container">
@@ -129,26 +126,92 @@
                 alt="Seta à direita"
               />
             </button>
-            </div>
+          </div>
 
-            <div class="header__search">
-              <img src="./src/assets/icons/search.png" alt="" />
-              <input
-                id="search-input"
-                type="text"
-                maxlength="800"
-                placeholder="O que você quer ouvir?"
-              />
-            </div>
+          <div class="header__search">
+            <img src="./src/assets/icons/search.png" alt="" />
+            <input
+              id="search-input"
+              type="text"
+              maxlength="800"
+              placeholder="O que você quer ouvir?"
+            />
+          </div>
 
-            <div class="header__login">
-              <button class="subscribe">Inscreva-se</button>
-              <button class="login">Entrar</button>
-            </div>
+          <div class="header__login">
+            <button class="subscribe">Inscreva-se</button>
+            <button class="login">Entrar</button>
           </div>
         </nav>
       </div>
+      <!--CARDS-->
+      <div class="offer__scroll-container">
+        <div class="offer__header">
+          <a class="text title" href="">Playlists do Spotify</a>
+          <a class="text paragraph" href="">Mostrar tudo</a>
+        </div>
+        <!--SCROLL CONTAINER-->
+        <div class="offer__list">
+          <section>
+            <!--CARD 1-->
+            <button href="" class="cards">
+              <div class="cardbox">
+                <img
+                  src="./src/assets/playlist/mega_hit_mix.jpg"
+                  alt="Capa coletânea Mega Hit Mix. Imagem de artista de perfil."
+                />
+                <span class="text subtitle">Mega Hit Mix</span>
+                <span class="text paragraph"
+                  >A mega mix of 75 favorites from the last few years!</span
+                >
+              </div>
+            </button>
+            <!--CARD 2-->
+            <button href="" class="cards">
+              <div class="cardbox">
+                <img
+                  src="./src/assets/playlist/lofi-morning.jpg"
+                  alt="Capa coletânea Mellow Morning Lofi. Imagem de utensílios para fazer café."
+                />
+                <span class="text subtitle">Mellow Morning Lofi</span>
+                <span class="text paragraph"
+                  >Laid-back beats for an easygoing morning.</span
+                >
+              </div>
+            </button>
+            <!--CARD 3-->
+            <button href="" class="cards">
+              <div class="cardbox">
+                <img
+                  src="./src/assets/playlist/reflection.jpg"
+                  alt="Capa coletânea Reflection. Imagem de pessoa olhando o mar."
+                />
+                <span class="text subtitle">Reflection</span>
+                <span class="text paragraph"
+                  >A safe space for reflecting and remembering. Soft,
+                  instrumental music to bring you comfort and strength.</span
+                >
+              </div>
+            </button>
+            <!--CARD 4-->
+            <button href="" class="cards">
+              <div class="cardbox">
+                <img
+                  src="./src/assets/playlist/rock_classics.jpg"
+                  alt="Capa coletânea Rock Classics. Imagem em preto e branco de menbro de uma banda."
+                />
+                <span class="text subtitle">Rock Classics</span>
+                <span class="text paragraph"
+                  >Rock legends & epic songs that continue to inspire
+                  generations.</span
+                >
+              </div>
+            </button>
+          </section>
+        </div>
+      </div>
     </main>
+
     <!--FOOTER-->
     <footer class="footer">
       <div>
