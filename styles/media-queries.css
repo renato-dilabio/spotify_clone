@@ -28,6 +28,9 @@
   .header__navigation {
     left: 336px;
   }
+  .offer__scroll-container .page-info {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media screen and (max-width: 950px) {
@@ -36,6 +39,9 @@
   }
   .header__search input {
     width: 10vw;
+  }
+  .offer__scroll-container .page-info {
+    grid-template-columns: 1fr;
   }
 }
 
