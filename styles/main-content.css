@@ -17,10 +17,12 @@
 }
 
 .header__navigation {
-  display: flex;
-  justify-content: space-between;
   position: fixed;
-  margin: 0 16px 8px 0;
+  display: inline-flex;
+  right: 0;
+  left: 376px;
+  justify-content: space-between;
+  margin: 0 8px 8px 0;
   padding: 8px 12px;
   border-radius: 8px;
   background-color: var(--background-sidebar);
@@ -62,8 +64,8 @@
 .header__search {
   display: flex;
   align-items: center;
-  min-width: 190px;
-  max-width: 800px;
+  min-width: 60px;
+  max-width: 500px;
   height: 48px;
   margin-left: 8px;
   background-color: var(--background-sidebar-insidebox);
@@ -80,7 +82,8 @@
 .header__search input {
   background: transparent;
   border: none;
-  padding: 0 100px 0 12px;
+  width: 30vw;
+  padding-left: 1rem;
   color: var(--color-text-bright);
   text-overflow: ellipsis;
   overflow: hidden;
@@ -144,6 +147,10 @@
   font-size: 24px;
 }
 
+.offer__scroll-container .title:hover {
+  text-decoration: underline;
+}
+
 .offer__scroll-container .subtitle {
   color: var(--color-text-bright);
   font-weight: var(--font-weight-bold);
@@ -167,6 +174,10 @@
   overflow: hidden;
 }
 
+.offer__scroll-container .paragraph:hover {
+  color: var(--color-text-bright);
+}
+
 .offer__scroll-container .offer__header {
   display: flex;
   justify-content: space-between;
@@ -182,12 +193,12 @@
 }
 
 .cards {
-  min-width: 120px;
+  min-width: 170px;
   max-width: 200px;
-  max-height: 253px;
+  max-height: 275px;
   border: none;
   border-radius: 8px;
-  background-color: #20202088;
+  background-color: #2020205e;
   padding: 14px;
   text-align: left;
 }
@@ -196,4 +207,37 @@
   margin-bottom: 12px;
   width: 100%;
   border-radius: 8px;
+}
+
+.cards .card-hover {
+  width: 60%;
+  transform: translate3d(75%, -200%, 0);
+  opacity: 0;
+}
+
+.cards:hover .card-hover {
+  transition: 0.3s;
+  cursor: pointer;
+  opacity: 0.95;
+  transform: translate3d(75%, -210%, 0);
+  background-color: transparent;
+  border: none;
+}
+
+.cards:hover {
+  background-color: var(--background-sidebar-insidebox);
+  border: 1px solid var(--background-sidebar);
+  transition: 0.3s;
+}
+
+.cards:hover .paragraph {
+  color: var(--color-text-bright);
+}
+
+.hidebar-bottom {
+  width: 100vw;
+  height: 150px;
+  bottom: 0;
+  background: linear-gradient(to top, #000 60%, transparent);
+  position: fixed;
 }

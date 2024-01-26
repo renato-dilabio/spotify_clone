@@ -69,6 +69,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  height: 80vh;
   padding: 4px 8px;
   margin-top: 8px;
 }
@@ -198,7 +199,6 @@ h1 {
 }
 
 .sidebar .info {
-  margin-top: auto;
   margin-bottom: 30px;
   font-weight: var(--font-weight-defaut);
 }
@@ -227,6 +227,17 @@ h1 {
   display: flex;
 }
 
+.info .choices {
+  display: flex;
+  flex-direction: row;
+}
+
+.info .choices img {
+  height: 10px;
+  transform: translateY(10px);
+  margin-left: -4px;
+}
+
 .languages .languages__button {
   background-color: transparent;
   border: 1px solid #878787;
@@ -235,6 +246,7 @@ h1 {
   cursor: pointer;
   font-weight: var(--font-weight-bold);
   padding: 4px 10px;
+  margin-bottom: 20rem;
   display: flex;
   justify-content: center;
   align-items: center;
