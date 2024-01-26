@@ -139,3 +139,21 @@ const explorePodcasts = document.getElementById("explore-podcasts");
 explorePodcasts.addEventListener("click", function () {
   window.open("https://open.spotify.com/genre/podcasts-web", "_blank");
 });
+
+const insta = document.getElementById("insta");
+insta.addEventListener("click", function () {
+  window.open("https://www.instagram.com/spotify/", "_blank");
+});
+
+const twitter = document.getElementById("twitter");
+twitter.addEventListener("click", function () {
+  window.open("https://twitter.com/spotify", "_blank");
+});
+
+const facebook = document.getElementById("facebook");
+facebook.addEventListener("click", function () {
+  window.open(
+    "https://www.facebook.com/SpotifyBrasil/?brand_redir=6243987495",
+    "_blank"
+  );
+});
