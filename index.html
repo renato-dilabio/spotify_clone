@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Spotify_</title>
+    <title>Spotify_clone</title>
 
     <link rel="stylesheet" href="styles/reset.css" />
     <link rel="stylesheet" href="styles/vars.css" />
@@ -46,7 +46,11 @@
             </a>
           </li>
           <li>
-            <a class="button-sidebar" href="">
+            <a
+              class="button-sidebar"
+              href="https://open.spotify.com/search"
+              target="_blank"
+            >
               <span class="uil uil-search"></span>
               <span class="text-sidebar">Buscar</span>
             </a>
@@ -67,7 +71,7 @@
           <div class="section-playlist__content">
             <span class="text title">Cria sua primeira playlist</span>
             <span class="text subtitle">É fácil, vamos te ajudar.</span>
-            <button class="sidebar__library__button text">
+            <button class="sidebar__library__button text" href="">
               Criar playlist
             </button>
           </div>
@@ -79,7 +83,11 @@
             <span class="text subtitle">
               Avisaremos você sobre novos episódios.
             </span>
-            <button class="sidebar__library__button text">
+            <button
+              class="sidebar__library__button text"
+              href="https://open.spotify.com/genre/podcasts-web"
+              target="_blank"
+            >
               Explore podcasts
             </button>
           </div>
@@ -87,17 +95,52 @@
 
         <section class="info">
           <div class="info__line1">
-            <a class="text" href="">Legal</a>
-            <a class="text" href="">Centro de Privacidade</a>
-            <a class="text" href="">Política de privacidade</a>
+            <a
+              class="text"
+              href="https://www.spotify.com/us/legal/end-user-agreement/"
+              target="_blank"
+              >Legal</a
+            >
+            <a
+              class="text"
+              href="https://www.spotify.com/us/privacy"
+              target="_blank"
+              >Centro de Privacidade</a
+            >
+            <a
+              class="text"
+              href="https://www.spotify.com/us/legal/privacy-policy/"
+              target="_blank"
+              >Política de privacidade</a
+            >
           </div>
           <div class="info__line2">
-            <a class="text" href="">Cookies</a>
-            <a class="text" href="">Sobre anúncios</a>
-            <a class="text" href="">Acessibilidade</a>
+            <a
+              class="text"
+              href="https://www.spotify.com/us/legal/cookies-policy/"
+              target="_blank"
+              >Cookies</a
+            >
+            <a
+              class="text"
+              href="https://www.spotify.com/us/legal/privacy-policy/#s3"
+              target="_blank"
+              >Sobre anúncios</a
+            >
+            <a
+              class="text"
+              href="https://www.spotify.com/us/accessibility"
+              target="_blank"
+              >Acessibilidade</a
+            >
           </div>
           <div class="info__line3">
-            <a class="text" href="">Notice at Collection</a>
+            <a
+              class="text"
+              href="https://www.spotify.com/us/legal/notice-at-collection/"
+              target="_blank"
+              >Notice at Collection</a
+            >
             <span class="choices">
               <a class="text" href="">Your Privacy Choices</a>
               <img src="./src/assets/icons/privacy-choices-icon.png" alt="" />
@@ -120,7 +163,7 @@
       <div class="main-container">
         <nav class="header__navigation">
           <div class="navigation">
-            <button class="arrow-left">
+            <button onclick="refreshPage()" class="arrow-left">
               <img
                 src="./src/assets/icons/small-left.png"
                 alt="Seta à esquerda"
@@ -147,22 +190,22 @@
           <div class="blank"></div>
 
           <div class="header__login">
-            <button class="subscribe">Inscreva-se</button>
-            <button class="login">Entrar</button>
+            <button href="https://www.spotify.com/br-pt/signup?flow_ctx=e07403d7-1b55-4be2-8e6a-25984a5e8007%3A1706313271" target="_blank" class="subscribe">Inscreva-se</button>
+            <button href="https://accounts.spotify.com/pt-BR/login?continue=https%3A%2F%2Fopen.spotify.com%2Fsearch" target="_blank" class="login">Entrar</button>
           </div>
         </nav>
 
         <!--CARDS-->
         <div class="offer__scroll-container">
           <div class="offer__header">
-            <a class="text title" href="">Playlists do Spotify</a>
-            <a class="text paragraph" href="">Mostrar tudo</a>
+            <span class="text">Playlists do Spotify</span>
+            <a id="mostrar-tudo" class="text paragraph"> Mostrar tudo </a>
           </div>
           <!--SCROLL CONTAINER-->
           <div class="offer__list">
-            <section>
+            <section id="card-list">
               <!--CARD 1-->
-              <button href="" class="cards">
+              <button href="https://open.spotify.com/playlist/37i9dQZF1DXbYM3nMM0oPk" target="_blank" class="cards">
                 <div class="cardbox">
                   <img
                     src="./src/assets/playlist/mega_hit_mix.jpg"
@@ -180,7 +223,7 @@
                 </div>
               </button>
               <!--CARD 2-->
-              <button href="" class="cards">
+              <button href="https://open.spotify.com/playlist/37i9dQZF1DX6QClArDhvcW" target="_blank" class="cards card2">
                 <div class="cardbox">
                   <img
                     src="./src/assets/playlist/lofi-morning.jpg"
@@ -198,7 +241,7 @@
                 </div>
               </button>
               <!--CARD 3-->
-              <button href="" class="cards">
+              <button href="https://open.spotify.com/playlist/37i9dQZF1DWSZXCWJ6tnaz" target="_blank" class="cards card3">
                 <div class="cardbox">
                   <img
                     src="./src/assets/playlist/reflection.jpg"
@@ -217,7 +260,7 @@
                 </div>
               </button>
               <!--CARD 4-->
-              <button href="" class="cards">
+              <button href="https://open.spotify.com/playlist/37i9dQZF1DWXRqgorJj26U" target="_blank" class="cards card4">
                 <div class="cardbox">
                   <img
                     src="./src/assets/playlist/rock_classics.jpg"
@@ -236,7 +279,7 @@
                 </div>
               </button>
               <!--CARD 5-->
-              <button href="" class="cards">
+              <button href="https://open.spotify.com/playlist/1Etp4xH5NPsrUBycpROv0l" target="_blank" id="card5" class="cards card5">
                 <div class="cardbox">
                   <img
                     src="./src/assets/playlist/alt-rock.jpg"
@@ -255,7 +298,7 @@
                 </div>
               </button>
               <!--CARD 6-->
-              <button href="" class="cards">
+              <button href="https://open.spotify.com/playlist/37i9dQZF1DX35DWKgAk2B5" target="_blank" id="card6" class="cards card6">
                 <div class="cardbox">
                   <img
                     src="./src/assets/playlist/indie-rock.jpg"
@@ -273,7 +316,7 @@
                 </div>
               </button>
               <!--CARD 7-->
-              <button href="" class="cards">
+              <button href="https://open.spotify.com/playlist/2Qrp8JW6NCllNtD56XxReB" target="_blank" id="card7" class="cards cards-hidden">
                 <div class="cardbox">
                   <img
                     src="./src/assets/playlist/billie-ellish.jpg"
@@ -291,7 +334,7 @@
                 </div>
               </button>
               <!--CARD 8-->
-              <button href="" class="cards">
+              <button href="https://open.spotify.com/playlist/37i9dQZF1DZ06evO47cwRq" target="_blank" id="card8" class="cards cards-hidden">
                 <div class="cardbox">
                   <img
                     src="./src/assets/playlist/lP.jpg"
@@ -310,7 +353,7 @@
                 </div>
               </button>
               <!--CARD 9-->
-              <button href="" class="cards">
+              <button href="https://open.spotify.com/intl-pt/album/5JY3b9cELQsoG7D5TJMOgw" target="_blank" id="card9" class="cards cards-hidden">
                 <div class="cardbox">
                   <img
                     src="./src/assets/playlist/stromae-multitude.jpg"
@@ -330,7 +373,7 @@
                 </div>
               </button>
               <!--CARD 10-->
-              <button href="" class="cards">
+              <button href="https://open.spotify.com/playlist/37i9dQZF1DX0AMssoUKCz7" target="_blank" id="card10" class="cards cards-hidden">
                 <div class="cardbox">
                   <img
                     src="./src/assets/playlist/tropical-house.jpg"
@@ -348,6 +391,40 @@
                   />
                 </div>
               </button>
+              <!--CARD 11-->
+              <button href="https://open.spotify.com/intl-pt/album/32ZTfHW7lUG1u7EQmqiVgX" target="_blank" id="card11" class="cards cards-hidden">
+                <div class="cardbox">
+                  <img
+                    src="./src/assets/playlist/emicida.jpg"
+                    alt="Capa coletânea Singles Emicida"
+                  />
+                  <span class="text subtitle">Emicida - Singles</span>
+                  <span class="text paragraph">This is Emicida.</span>
+                  <img
+                    class="card-hover"
+                    src="./src/assets/icons/Spotify-Play-Button.png"
+                    alt=""
+                  />
+                </div></button
+              ><!--CARD 12-->
+              <button href="https://open.spotify.com/intl-pt/track/1tdBiY9eVxJF1OFWieLjfm" target="_blank" id="card12" class="cards cards-hidden">
+                <div class="cardbox">
+                  <img
+                    src="./src/assets/playlist/for-today.jpg"
+                    alt="Capa álbum Fight the Silence - For Today"
+                  />
+                  <span class="text subtitle">Fight the Silence</span>
+                  <span class="text paragraph"
+                    >Enjoy one of the best crhistian rock bands ever. For
+                    Today.</span
+                  >
+                  <img
+                    class="card-hover"
+                    src="./src/assets/icons/Spotify-Play-Button.png"
+                    alt=""
+                  />
+                </div>
+              </button>
             </section>
           </div>
 
@@ -357,13 +434,13 @@
               <p class="text subtitle">Empresa</p>
               <ul>
                 <li>
-                  <a class="text paragraph" href="">Sobre</a>
+                  <a class="text paragraph" href="https://www.spotify.com/us/about-us/contact/" target="_blank">Sobre</a>
                 </li>
                 <li>
-                  <a class="text paragraph" href="">Empregos</a>
+                  <a class="text paragraph" href="https://www.lifeatspotify.com" target="_blank">Empregos</a>
                 </li>
                 <li>
-                  <a class="text paragraph" href="">For the Record</a>
+                  <a class="text paragraph" href="https://newsroom.spotify.com" target="_blank">For the Record</a>
                 </li>
               </ul>
             </div>
@@ -371,44 +448,44 @@
               <p class="text subtitle">Comunidades</p>
               <ul>
                 <li>
-                  <a class="text paragraph" href="">Para Artistas</a>
+                  <a class="text paragraph" href="https://artists.spotify.com/home" target="_blank">Para Artistas</a>
                 </li>
                 <li>
-                  <a class="text paragraph" href="">Desenvolvedores</a>
+                  <a class="text paragraph" href="https://developer.spotify.com" target="_blank">Desenvolvedores</a>
                 </li>
                 <li>
-                  <a class="text paragraph" href="">Publicidade</a>
+                  <a class="text paragraph" href="https://ads.spotify.com/pt-BR/" target="_blank">Publicidade</a>
                 </li>
                 <li>
-                  <a class="text paragraph" href="">Investidores</a>
+                  <a class="text paragraph" href="https://investors.spotify.com/home/default.aspx" target="_blank">Investidores</a>
                 </li>
                 <li>
-                  <a class="text paragraph" href="">Fornecedores</a>
+                  <a class="text paragraph" href="https://spotifyforvendors.com" target="_blank"">Fornecedores</a>
                 </li>
               </ul>
             </div>
             <div class="head__page-info">
-              <p class="text subtitle">Links Úteis</p>
+              <p class="text subtitle">Links úteis</p>
               <ul>
                 <li>
-                  <a class="text paragraph" href="">Suporte</a>
+                  <a class="text paragraph" href="https://support.spotify.com/us/" target="_blank">Suporte</a>
                 </li>
                 <li>
-                  <a class="text paragraph" href="">Aplicativo móvel grátis</a>
+                  <a class="text paragraph" href="https://www.spotify.com/us/free/" target="_blank">Aplicativo móvel grátis</a>
                 </li>
               </ul>
             </div>
             <div class="social-media">
-              <button class="uil uil-instagram"></button>
-              <button class="uil uil-twitter"></button>
-              <button class="uil uil-facebook-f"></button>
+              <button class="uil uil-instagram" href="https://www.instagram.com/spotify/" target="_blank"></button>
+              <button class="uil uil-twitter" href="https://twitter.com/spotify" target="_blank"></button>
+              <button class="uil uil-facebook-f" href="https://www.facebook.com/SpotifyBrasil/?brand_redir=6243987495" target="_blank"></button>
             </div>
           </section>
-          <p class="copyright text paragraph">
+          <p class="copyright text">
             _Clone de Spotify feita para estudo por_
           </p>
           <br />
-          <p class="copyright text paragraph">© 2024 RC Studio</p>
+          <a class="copyright text paragraph" href="https://renato-dilabio.github.io/Agregador-de-Links/" target="_blank">© 2024 RC Studio</a>
         </div>
       </div>
     </main>
@@ -425,7 +502,8 @@
           >
         </p>
       </div>
-      <button>Inscreva-se grátis</button>
+      <button href="https://www.spotify.com/br-pt/signup?flow_ctx=e07403d7-1b55-4be2-8e6a-25984a5e8007%3A1706313271" target="_blank" class="inscreva-se">Inscreva-se grátis</button>
     </footer>
+    <script src="script.js" type="text/javascript"></script>
   </body>
 </html>

@@ -2,6 +2,9 @@
   .offer__scroll-container .offer__list section {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
+  .card6 {
+    display: none;
+  }
   .header__navigation {
   }
 }
@@ -9,6 +12,9 @@
 @media screen and (max-width: 1400px) {
   .offer__scroll-container .offer__list section {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .card5 {
+    display: none;
   }
 }
 
@@ -31,6 +37,9 @@
   .offer__scroll-container .page-info {
     grid-template-columns: 1fr 1fr;
   }
+  .card4 {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 950px) {
@@ -43,6 +52,12 @@
   .offer__scroll-container .page-info {
     grid-template-columns: 1fr;
   }
+  .card3 {
+    display: none;
+  }
+  .header__search {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 750px) {
@@ -51,5 +66,11 @@
   }
   .header__search input {
     width: 10vw;
+  }
+  .card2 {
+    display: none;
+  }
+  .offer__scroll-container .title {
+    font-size: 20px;
   }
 }
