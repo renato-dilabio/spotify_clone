@@ -114,7 +114,10 @@
   }
   .offer__scroll-container .page-info {
     grid-template-columns: 1fr;
-    margin: 60px 150px 0 0;
+    margin: 60px 150px 30px 0;
+  }
+  .social-media {
+    display: block;
   }
   .social-media button {
     font-size: 30px;
@@ -138,6 +141,10 @@
     width: 160px;
   }
   body {
-    zoom: 100%;
+    zoom: 1fr;
+  }
+  .text-sidebar {
+    font-size: 14px;
+    padding-left: 4px;
   }
 }
