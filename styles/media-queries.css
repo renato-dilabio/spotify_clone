@@ -61,6 +61,10 @@
 }
 
 @media screen and (max-width: 750px) {
+  .header__login .login {
+    width: 80px;
+    margin-left: 20px;
+  }
   .offer__scroll-container .offer__list section {
     grid-template-columns: 1fr;
   }
@@ -105,6 +109,7 @@
     flex-direction: column;
   }
   .offer__header .title-main {
+    font-size: 18px;
     margin: 20px;
   }
   .offer__scroll-container .page-info {
@@ -131,5 +136,8 @@
   }
   .sidebar__library__button {
     width: 160px;
+  }
+  body {
+    zoom: 100%;
   }
 }
