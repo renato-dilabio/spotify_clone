@@ -120,7 +120,10 @@
     display: block;
   }
   .social-media button {
-    font-size: 30px;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    margin-right: 25px;
   }
   .sidebar__library .uil-plus {
     display: none;
@@ -140,7 +143,7 @@
   .sidebar__library__button {
     width: 160px;
   }
-  body {
+  .body {
     zoom: 1fr;
   }
   .text-sidebar {
