@@ -205,6 +205,10 @@
   grid-gap: 2rem;
 }
 
+.offer__header .paragraph {
+  color: rgb(210, 127, 221);
+}
+
 .offer__scroll-container .cards-hidden {
   display: none;
 }
@@ -311,10 +315,10 @@
   font-size: 15px;
 }
 
-.copyright_:hover {
-  color: var(--color-text-bright);
-  cursor: pointer;
+.RC-studio {
+  color: rgb(210, 127, 221);
 }
+
 .inscreva-se {
   cursor: pointer;
 }
