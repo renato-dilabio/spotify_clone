@@ -15,7 +15,6 @@ h1 {
   bottom: 0;
   padding: 9px;
   width: 360px;
-  height: 100vh;
 }
 
 .sidebar ul li {
@@ -67,9 +66,9 @@ h1 {
   background-color: var(--background-sidebar);
   border-radius: 8px;
   display: flex;
-  justify-content: space-between;
+  justify-content: baseline;
   flex-direction: column;
-  height: 80vh;
+  height: 100%;
   padding: 4px 8px;
   margin-top: 8px;
 }
@@ -140,7 +139,6 @@ h1 {
 
 .section-playlist {
   display: flex;
-  align-items: flex-start;
   justify-content: space-between;
   gap: 20px;
   background-color: var(--background-sidebar-insidebox);
@@ -199,7 +197,7 @@ h1 {
 }
 
 .sidebar .info {
-  margin-bottom: 30px;
+  margin: 10px 0;
   font-weight: var(--font-weight-defaut);
 }
 

@@ -70,7 +70,66 @@
   .card2 {
     display: none;
   }
-  .offer__scroll-container .title {
-    font-size: 20px;
+  .sidebar {
+    width: 210px;
+  }
+  .main-container {
+    margin: 10px 4px 0 226px;
+  }
+  .header__navigation {
+    left: 226px;
+  }
+  .info .choices img {
+    margin-right: 25px;
+  }
+  .sidebar .info .info__line1 {
+    flex-direction: column;
+  }
+  .sidebar .info .info__line2 {
+    flex-direction: column;
+  }
+  .sidebar .info .info__line3 {
+    flex-direction: column;
+  }
+  .sidebar .title {
+    margin-bottom: 25px;
+  }
+  .sidebar .subtitle {
+    display: none;
+  }
+  .sidebar .title {
+    display: none;
+  }
+  .offer__header {
+    display: flex;
+    flex-direction: column;
+  }
+  .offer__header .title-main {
+    margin: 20px;
+  }
+  .offer__scroll-container .page-info {
+    grid-template-columns: 1fr;
+    margin: 60px 150px 0 0;
+  }
+  .social-media button {
+    font-size: 30px;
+  }
+  .sidebar__library .uil-plus {
+    display: none;
+  }
+  .section-playlist {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    padding: 0;
+  }
+  .section-podcast {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    padding: 10px 0;
+  }
+  .sidebar__library__button {
+    width: 160px;
   }
 }
