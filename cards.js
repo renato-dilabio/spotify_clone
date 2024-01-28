@@ -148,6 +148,57 @@ const cardData = [
     imgSrc: "./src/assets/playlist/racionais.jpg",
     altImg: "Capa playlist This is Racionais MC's",
   },
+  {
+    id: 19,
+    playlist: "All Out 90s",
+    description: "The biggest songs of the 1990s. Cover: Sheryl Crow.",
+    imgSrc: "./src/assets/playlist/allout.jpg",
+    altImg: "Capa playlist All Out 90s",
+  },
+  {
+    id: 20,
+    playlist: "Wake Up Gently",
+    description: "Wake up at your own pace with gentle piano music.",
+    imgSrc: "./src/assets/playlist/gently.jpg",
+    altImg: "Capa playlist Wake up gently",
+  },
+  {
+    id: 21,
+    playlist: "Cozy Acoustic Morning",
+    description: "Warm instrumental guitar for a gentle start.",
+    imgSrc: "./src/assets/playlist/cozy.jpg",
+    altImg: "Capa playlist Cozy Acoustic Morning",
+  },
+  {
+    id: 22,
+    playlist: "Acoustic MPB",
+    description: "Versões desplugadas para grandes hits e novidades da MPB.",
+    imgSrc: "./src/assets/playlist/mpbac.jpg",
+    altImg: "Capa playlist Acoustic MPB",
+  },
+  {
+    id: 23,
+    playlist: "All New Rock",
+    description: "The best new rock tracks every week. Cover: Charlotte Sands",
+    imgSrc: "./src/assets/playlist/newrock.jpg",
+    altImg: "Capa playlist All New Rock",
+  },
+  {
+    id: 24,
+    playlist: "00s Metal Classics",
+    description:
+      "The biggest metal songs of the 2000s. Cover: System Of A Down",
+    imgSrc: "./src/assets/playlist/metalclass.jpg",
+    altImg: "Capa playlist 00s Metal Classics",
+  },
+  {
+    id: 25,
+    playlist: "Dust Lane",
+    description:
+      "Yann Tiersen closes his newest album, Dust Lane, with an upbeat guitar and voice tune called 'Fuck Me.'",
+    imgSrc: "./src/assets/playlist/dust-lane.jpg",
+    altImg: "Capa álbum Dust Lane - Yann Tiersen",
+  },
 ];
 
 //----------- SORTEIO DE CARDS ----------
