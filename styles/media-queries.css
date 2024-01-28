@@ -2,7 +2,7 @@
   .offer__scroll-container .offer__list section {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
-  .card6 {
+  #card6 {
     display: none;
   }
   .header__navigation {
@@ -13,7 +13,7 @@
   .offer__scroll-container .offer__list section {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
-  .card5 {
+  #card5 {
     display: none;
   }
 }
@@ -37,7 +37,7 @@
   .offer__scroll-container .page-info {
     grid-template-columns: 1fr 1fr;
   }
-  .card4 {
+  #card4 {
     display: none;
   }
 }
@@ -52,7 +52,7 @@
   .offer__scroll-container .page-info {
     grid-template-columns: 1fr;
   }
-  .card3 {
+  #card3 {
     display: none;
   }
   .header__search {
@@ -71,7 +71,7 @@
   .header__search input {
     width: 10vw;
   }
-  .card2 {
+  #card2 {
     display: none;
   }
   .sidebar {

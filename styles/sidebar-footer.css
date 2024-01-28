@@ -273,11 +273,6 @@ h1 {
   align-items: center;
 }
 
-.footer div {
-  position: relative;
-  margin: 0 auto;
-}
-
 .footer button {
   border-radius: 999px;
   height: 48px;
@@ -296,6 +291,7 @@ h1 {
 }
 
 .footer .text {
+  flex-shrink: 0;
   letter-spacing: 0.7px;
   font-weight: var(--font-weight-bold);
   text-align: left;
