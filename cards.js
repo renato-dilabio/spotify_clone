@@ -95,6 +95,59 @@ const cardData = [
     imgSrc: "./src/assets/playlist/for-today.jpg",
     altImg: "Capa álbum Fight the Silence - For Today",
   },
+  {
+    id: 13,
+    playlist: "The Dark Side of the Moon",
+    description:
+      "The Dark Side of the Moon (2011 Remastered Version) - Pink Floyd",
+    imgSrc: "./src/assets/playlist/dark-side.jpg",
+    altImg: "Capa álbum The Dark Side of the Moon - Pink Floyd",
+  },
+  {
+    id: 14,
+    playlist: "PodDelas",
+    description:
+      "Sejam muito bem vindos e bem vindas ao PodDelas, espaço de conversa comandado por Boo Unzueta e Tata Estaniecki! Aqui você vai encontrar muita conversa gostosa, sempre com leveza, humor e boas histórias!",
+    imgSrc: "./src/assets/playlist/poddelas.jpeg",
+    altImg: "Capa podcast - PodDelas",
+  },
+  {
+    id: 15,
+    playlist: "Science Vs",
+    description:
+      "There are a lot of fads, blogs and strong opinions, but then there’s SCIENCE. Science Vs is the show from Gimlet that finds out what’s fact, what’s not, and what’s somewhere in between. We do the hard work of sifting through all the science so you don't have to and cover everything from 5G and Pandemics, to Vaping and Fasting Diets.",
+    imgSrc: "./src/assets/playlist/science.jpeg",
+    altImg: "Capa podcast - Science VS",
+  },
+  {
+    id: 16,
+    playlist: "Clearly",
+    description: "Single by Grace VanderWaal",
+    imgSrc: "./src/assets/playlist/clearly.jpg",
+    altImg: "Capa single Clearly - Grace VanderWaal",
+  },
+  {
+    id: 16,
+    playlist: "Criolo - Singles",
+    description: "Ouça os principais singles de Criolo.",
+    imgSrc: "./src/assets/playlist/criolo.jpg",
+    altImg: "Capa singles Criolo",
+  },
+  {
+    id: 17,
+    playlist: "The Mushroom Cloud",
+    description: "A album by Kyteman - The Hihop Orchestra.",
+    imgSrc: "./src/assets/playlist/kyte.jpg",
+    altImg: "Capa álbum Mushroom Cloud - Kyteman",
+  },
+  {
+    id: 18,
+    playlist: "This is Racionais MC's",
+    description:
+      "This is Racionais MC's. Todos os maiores hits em uma só playlist.",
+    imgSrc: "./src/assets/playlist/racionais.jpg",
+    altImg: "Capa playlist This is Racionais MC's",
+  },
 ];
 
 //----------- SORTEIO DE CARDS ----------

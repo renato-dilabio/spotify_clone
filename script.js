@@ -37,7 +37,7 @@ signin.addEventListener("click", function () {
   );
 });
 
-const card1 = document.getElementById("card1");
+/*const card1 = document.getElementById("card1");
 card1.addEventListener("click", function () {
   window.open(
     "https://open.spotify.com/playlist/37i9dQZF1DXbYM3nMM0oPk",
@@ -125,7 +125,7 @@ card12.addEventListener("click", function () {
     "https://open.spotify.com/intl-pt/track/1tdBiY9eVxJF1OFWieLjfm",
     "_blank"
   );
-});
+});*/
 
 const footerSubscribe = document.getElementById("footer-subscribe");
 footerSubscribe.addEventListener("click", function () {
