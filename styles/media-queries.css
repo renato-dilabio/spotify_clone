@@ -58,22 +58,6 @@
   .header__search {
     display: none;
   }
-}
-
-@media screen and (max-width: 750px) {
-  .header__login .login {
-    width: 80px;
-    margin-left: 20px;
-  }
-  .offer__scroll-container .offer__list section {
-    grid-template-columns: 1fr;
-  }
-  .header__search input {
-    width: 10vw;
-  }
-  #card2 {
-    display: none;
-  }
   .sidebar {
     width: 210px;
   }
@@ -144,10 +128,26 @@
     width: 160px;
   }
   .body {
-    zoom: 1fr;
+    zoom: 100%;
   }
   .text-sidebar {
     font-size: 14px;
     padding-left: 4px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .header__login .login {
+    width: 80px;
+    margin-left: 20px;
+  }
+  .offer__scroll-container .offer__list section {
+    grid-template-columns: 1fr;
+  }
+  .header__search input {
+    width: 10vw;
+  }
+  #card2 {
+    display: none;
   }
 }
