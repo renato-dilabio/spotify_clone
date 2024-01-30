@@ -7,9 +7,7 @@ Aprendizado na prática, além do básico em Front-end <br/><br/>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
 </p>
 
 <br>
@@ -37,4 +35,4 @@ Durante uma semana de imersão, desenvolvemos um clone de uma página do spotify
 
 ---
 
-Feito com ♥ by RC Studio :wave:
+Feito com ♥ pelo RC Studio :wave:
